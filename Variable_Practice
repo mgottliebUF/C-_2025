@@ -12,7 +12,7 @@ cout << "Total number of books and pages: " << number_books + number_pages << en
 cout << "New Book" << endl;
 
 
-number_books = number_books + 1 
+number_books = number_books + 1;
 
 cout << "New number of books: " << number_books << endl; 
 return 0;
