@@ -4,7 +4,9 @@ using namespace std;
 int main() {
 
 int number_books = 5;
+int number_pages = 56;
 cout << "Number of books: " << number_books << endl;
+cout << "Number of pages: " << number_pages << endl;
 
 
 return 0;
