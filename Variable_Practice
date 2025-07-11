@@ -9,7 +9,12 @@ cout << "Number of books: " << number_books << endl;
 cout << "Number of pages: " << number_pages << endl;
 cout << "Total number of books and pages: " << number_books + number_pages << endl;
 
+cout << "New Book" << endl;
 
+
+number_books = number_books + 1 
+
+cout << "New number of books: " << number_books << endl; 
 return 0;
 }
 
