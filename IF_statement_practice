@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    string password_response = "coding";
+    cout << "Enter your password > " << flush;
+    
+    string input;
+    cin >> input;
+    
+    if(input == password_response) {
+         cout << "'" << "Welcome" << "'" << endl;
+
+    }
+    
+    
+    return 0;
+}
