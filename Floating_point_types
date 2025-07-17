@@ -2,8 +2,9 @@
 using namespace std; 
 
 int main() {
-  int value = 6;
+  float fvalue = 76.4;
 
-  count << value << endl; 
+  count << fvalue << endl; 
+
   return 0;
 }
