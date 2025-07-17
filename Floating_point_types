@@ -1,10 +1,11 @@
 #include <iostream>
+#include <iomanip>
 using namespace std; 
 
 int main() {
   float fvalue = 76.4;
-
-  count << fvalue << endl; 
+  
+  count << scientific << fvalue << endl; 
 
   return 0;
 }
